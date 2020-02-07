@@ -2,10 +2,12 @@ $(document).ready(function() {
 
 	setInterval(function() {
 		if (navigator.onLine) {
-			$('section').html('There is a connection.');
+			$('#locked').css("display","block");
+			$('#unlocked').css("display","none");
 		}
 		else {
-			$('section').html("There is NOT a connection.");
+			$('#locked').css("display","none");
+			$('#unlocked').css("display","block");
 		}
 	}, 200);
 
