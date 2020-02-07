@@ -7,6 +7,6 @@ $(document).ready(function() {
 		else {
 			$('section').html("There is NOT a connection.");
 		}
-	}, 500);
+	}, 200);
 
 });
