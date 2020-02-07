@@ -9,6 +9,6 @@ $(document).ready(function() {
 			$('#locked').css("display","none");
 			$('#unlocked').css("display","block");
 		}
-	}, 200);
+	}, 100);
 
 });
